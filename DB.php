@@ -2,7 +2,7 @@
 namespace App;
 use PDO;
 
-include __DIR__ . '/db_config.php';
+include __DIR__ . '/db/db_config.php';
 
 class DB
 {

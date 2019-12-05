@@ -1,2 +1,4 @@
 .idea/
-db/db_config.php
+/db/db_config.php
+phinx.yml
+/vendor/
