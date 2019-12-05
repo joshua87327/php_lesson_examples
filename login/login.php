@@ -1,5 +1,5 @@
 <?php
-include __DIR__.'/../boostrap.php';
+include __DIR__ . '/../bootstrap.php';
 if(isset($_POST[Submit])){
     // 如果帳號和密碼正確的話，寫入Session變數，並視情況重導到相關的頁面
     if($_POST[account] == "admin" && $_POST[password] == "pass"){

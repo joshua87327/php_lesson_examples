@@ -1,5 +1,5 @@
 <?php
-include __DIR__.'/../boostrap.php';
+include __DIR__ . '/../bootstrap.php';
 session_start();
 $_SESSION[UrlRedirect] = $_SERVER['PHP_SELF'];
 if($_SESSION[authenticated] == true){

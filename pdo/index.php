@@ -1,5 +1,5 @@
 <?php
-include __DIR__.'/../boostrap.php';
+include __DIR__ . '/../bootstrap.php';
 ?>
 <html>
 <head>

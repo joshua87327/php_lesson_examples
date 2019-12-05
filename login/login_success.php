@@ -1,5 +1,5 @@
 <?php
-include __DIR__.'/../boostrap.php';
+include __DIR__ . '/../bootstrap.php';
 session_start();
 if($_SESSION[authenticated] == true){
     $result = '登入時間： '.$_SESSION[login_time];

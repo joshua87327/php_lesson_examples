@@ -1,5 +1,5 @@
 <?php
-include __DIR__ . '/../boostrap.php';
+include __DIR__ . '/../bootstrap.php';
 $sql = 'SELECT * FROM team where id = :id';
 $stmt = $conn->prepare($sql);
 $stmt->execute(array(':id'=> 1));

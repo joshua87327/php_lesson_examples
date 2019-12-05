@@ -1,5 +1,5 @@
 <?php
-include __DIR__ . '/../boostrap.php';
+include __DIR__ . '/../bootstrap.php';
 $sql = 'SELECT * FROM team';
 $arrays = $conn->query($sql)->fetchAll();
 print_r($arrays);
