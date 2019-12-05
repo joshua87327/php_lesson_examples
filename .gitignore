@@ -1,3 +1,2 @@
-# Created by .ignore support plugin (hsz.mobi)
-/.idea/vcs.xml
-/db/db_config.php
+.idea/vcs.xml
+db/db_config.php
