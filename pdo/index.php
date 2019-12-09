@@ -121,6 +121,29 @@ if(isset($_GET['mod_id']) && $_GET['mod_id']!=''){
 }
 ?>
 </p>
+<p align="center">
+<?php
+$sql = 'SELECT * FROM team';
+$arrays = $conn->query($sql)->fetchAll();
+
+echo '<br>
+<table border="1">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>NAME</th>
+            <th>FLAG</th>
+        </tr>
+    </thead>
+    <tbody>';
+foreach ($arrays as $rows){
+    echo '<tr><td>'.$rows['id'].'</td><td>'.$rows['name'].'</td><td>'.$rows['flag']. '</td></tr>';
+}
+echo '
+    </tbody>
+</table>';
+?>
+</p>
 </body>
 </html>
 
